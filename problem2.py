@@ -7,6 +7,8 @@ if __name__ == '__main__':
 	label,features = readNtranslate("./data/train.txt")
 	test_label,test_features = readNtranslate("./data/test.txt")
 
+	label,features = random_shuffle(label,features)
+	
 	train_label = []
 	train_features = []
 
@@ -31,25 +33,26 @@ if __name__ == '__main__':
 						test_label,
 						test_features])
 
-						
-	for i in range(4) :
-		print(len(data[i][0]))
 	pool = ThreadPool(4)
-	p_labels = pool.map(trainNpredict,data)
+	p_vals = pool.map(trainNpredict,data)
 	
 	pool.close()
 	pool.join()
 
-	labels = []
-	second_labels = []
-	for i in range(pair) :
-		labels.append(p_labels[i]);
-		if (i + 1) % half == 0 :
-			second_labels.append(reduce(seq_min,labels));
-			labels = []
-		
-	result_label = list(reduce(seq_max,second_labels));	
-
+	for i in range(half * half):
+		print('process:',i,'train:',p_vals[i][-1][0],'s','predict:',p_vals[i][-1][1],'s')
+		p_vals[i].pop()
+		p_vals[i].pop()
+	
+	result_label = minmax(half,half,p_vals,0)
 	Evaluation(result_label,test_label)
-
-
+	
+	threshold = [-8,-4,4,8]		
+	for i in range(-20,20,2) :
+		threshold.append(i / 10)
+	threshold.sort()
+			
+	print("ROC:")
+	for i in range(len(threshold)):
+		result_label = minmax(half,half,p_vals,threshold[i])
+		Evaluation(result_label,test_label,False)

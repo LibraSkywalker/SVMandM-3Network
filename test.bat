@@ -1,4 +1,4 @@
 time < enter > result.txt
-python problem3.py
+python problem2.py
 time < enter >> result.txt
 pause
