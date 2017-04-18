@@ -1,4 +1,4 @@
-# SVMandM-3Network
+# SVM and M-3 Network
 
 ## 小组成员
 蔡万鑫 陈茂棠
