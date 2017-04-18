@@ -1,0 +1,323 @@
+*.
+optimization finished, #iter = 10
+Objective value = -577.171345
+nSV = 2282
+*
+optimization finished, #iter = 8
+Objective value = -210.408625
+nSV = 1252
+*
+optimization finished, #iter = 8
+Objective value = -194.908207
+nSV = 1352
+*
+optimization finished, #iter = 9
+Objective value = -284.529555
+nSV = 1429
+.*
+optimization finished, #iter = 11
+Objective value = -1130.319426
+nSV = 4138
+*.
+optimization finished, #iter = 10
+Objective value = -470.672714
+nSV = 2199
+*.
+optimization finished, #iter = 10
+Objective value = -405.741933
+nSV = 1863
+*
+optimization finished, #iter = 8
+Objective value = -342.456277
+nSV = 1749
+*.
+optimization finished, #iter = 10
+Objective value = -666.651437
+nSV = 2612
+*
+optimization finished, #iter = 8
+Objective value = -100.211626
+nSV = 861
+*
+optimization finished, #iter = 8
+Objective value = -67.068441
+nSV = 813
+*
+optimization finished, #iter = 8
+Objective value = -78.789431
+nSV = 847
+*
+optimization finished, #iter = 8
+Objective value = -231.772952
+nSV = 1351
+*
+optimization finished, #iter = 9
+Objective value = -400.454724
+nSV = 2041
+*
+optimization finished, #iter = 9
+Objective value = -143.629210
+nSV = 900
+*
+optimization finished, #iter = 8
+Objective value = -163.407212
+nSV = 1139
+*
+optimization finished, #iter = 8
+Objective value = -169.645033
+nSV = 1005
+*.
+optimization finished, #iter = 10
+Objective value = -569.065153
+nSV = 2689
+*.
+optimization finished, #iter = 10
+Objective value = -327.502100
+nSV = 1735
+*
+optimization finished, #iter = 8
+Objective value = -209.275343
+nSV = 1357
+.*
+optimization finished, #iter = 11
+Objective value = -987.412569
+nSV = 3086
+*
+optimization finished, #iter = 9
+Objective value = -382.649733
+nSV = 1678
+*
+optimization finished, #iter = 7
+Objective value = -55.108587
+nSV = 619
+*
+optimization finished, #iter = 8
+Objective value = -59.227915
+nSV = 583
+*
+optimization finished, #iter = 8
+Objective value = -72.561310
+nSV = 662
+*
+optimization finished, #iter = 9
+Objective value = -266.012471
+nSV = 1211
+.*
+optimization finished, #iter = 11
+Objective value = -915.890409
+nSV = 2947
+.*
+optimization finished, #iter = 11
+Objective value = -1295.927195
+nSV = 3872
+.*
+optimization finished, #iter = 12
+Objective value = -2893.721592
+nSV = 6869
+*
+optimization finished, #iter = 9
+Objective value = -260.640008
+nSV = 1660
+*
+optimization finished, #iter = 9
+Objective value = -498.845233
+nSV = 2316
+.*
+optimization finished, #iter = 11
+Objective value = -577.086386
+nSV = 2134
+.*
+optimization finished, #iter = 11
+Objective value = -1225.111950
+nSV = 3928
+*
+optimization finished, #iter = 8
+Objective value = -103.001241
+nSV = 1046
+*
+optimization finished, #iter = 8
+Objective value = -74.793741
+nSV = 975
+*
+optimization finished, #iter = 9
+Objective value = -221.116574
+nSV = 1465
+*.
+optimization finished, #iter = 10
+Objective value = -432.969513
+nSV = 2172
+*
+optimization finished, #iter = 8
+Objective value = -120.483723
+nSV = 1010
+.*
+optimization finished, #iter = 12
+Objective value = -2482.877967
+nSV = 7045
+.*
+optimization finished, #iter = 11
+Objective value = -1432.050766
+nSV = 4646
+.*
+optimization finished, #iter = 11
+Objective value = -1230.006485
+nSV = 3986
+*
+optimization finished, #iter = 9
+Objective value = -400.439155
+nSV = 2316
+*
+optimization finished, #iter = 9
+Objective value = -447.222074
+nSV = 2346
+.*
+optimization finished, #iter = 11
+Objective value = -973.464034
+nSV = 3808
+*
+optimization finished, #iter = 9
+Objective value = -183.423966
+nSV = 1499
+*
+optimization finished, #iter = 8
+Objective value = -110.371467
+nSV = 1346
+*
+optimization finished, #iter = 8
+Objective value = -155.234029
+nSV = 1486
+*.
+optimization finished, #iter = 10
+Objective value = -500.416047
+nSV = 2400
+Accuracy = 76.5998% (28944/37786) (classification)
+Accuracy = 32.0886% (12125/37786) (classification)
+Accuracy = 62.7931% (23727/37786) (classification)
+Accuracy = 38.6625% (14609/37786) (classification)
+Accuracy = 49.4389% (18681/37786) (classification)
+Accuracy = 33.0149% (12475/37786) (classification)
+Accuracy = 59.0695% (22320/37786) (classification)
+Accuracy = 30.3896% (11483/37786) (classification)
+Accuracy = 69.5919% (26296/37786) (classification)
+Accuracy = 32.0119% (12096/37786) (classification)
+Accuracy = 62.5284% (23627/37786) (classification)
+Accuracy = 43.405% (16401/37786) (classification)
+Accuracy = 33.1446% (12524/37786) (classification)
+Accuracy = 28.1692% (10644/37786) (classification)
+Accuracy = 76.2849% (28825/37786) (classification)
+Accuracy = 78.4788% (29654/37786) (classification)
+Accuracy = 75.5094% (28532/37786) (classification)
+Accuracy = 34.6054% (13076/37786) (classification)
+Accuracy = 54.3217% (20526/37786) (classification)
+Accuracy = 29.6247% (11194/37786) (classification)
+Accuracy = 45.4295% (17166/37786) (classification)
+Accuracy = 26.8883% (10160/37786) (classification)
+Accuracy = 68.438% (25860/37786) (classification)
+Accuracy = 51.7626% (19559/37786) (classification)
+Accuracy = 73.4002% (27735/37786) (classification)
+Accuracy = 79.3336% (29977/37786) (classification)
+Accuracy = 48.645% (18381/37786) (classification)
+Accuracy = 55.1157% (20826/37786) (classification)
+Accuracy = 63.1874% (23876/37786) (classification)
+Accuracy = 61.663% (23300/37786) (classification)
+Accuracy = 69.891% (26409/37786) (classification)
+Accuracy = 68.3295% (25819/37786) (classification)
+Accuracy = 81.2179% (30689/37786) (classification)
+Accuracy = 30.072% (11363/37786) (classification)
+Accuracy = 61.7424% (23330/37786) (classification)
+Accuracy = 39.3903% (14884/37786) (classification)
+Accuracy = 55.4967% (20970/37786) (classification)
+Accuracy = 34.6372% (13087/37786) (classification)
+Accuracy = 74.652% (28208/37786) (classification)
+Accuracy = 58.3761% (22058/37786) (classification)
+Accuracy = 68.1628% (25756/37786) (classification)
+Accuracy = 74.1915% (28034/37786) (classification)
+Accuracy = 79.8364% (30167/37786) (classification)
+Accuracy = 80.1302% (30278/37786) (classification)
+Accuracy = 59.403% (22446/37786) (classification)
+Accuracy = 60.5489% (22879/37786) (classification)
+Accuracy = 74.3159% (28081/37786) (classification)
+Accuracy = 27.1926% (10275/37786) (classification)
+./data/train.txt is loading.
+./data/train.txt has been loaded.
+parsing the data.
+Data has been parsed.
+./data/test.txt is loading.
+./data/test.txt has been loaded.
+parsing the data.
+Data has been parsed.
+process: 0 train: 1.2091596126556396 s predict: 5.802767992019653 s
+process: 1 train: 2.5358359813690186 s predict: 5.5852391719818115 s
+process: 2 train: 0.5780766010284424 s predict: 5.776264667510986 s
+process: 3 train: 2.075774669647217 s predict: 5.648247718811035 s
+process: 4 train: 4.02153205871582 s predict: 5.5587358474731445 s
+process: 5 train: 0.48206400871276855 s predict: 5.733758926391602 s
+process: 6 train: 3.1574182510375977 s predict: 5.85877537727356 s
+process: 7 train: 0.742598295211792 s predict: 5.789766073226929 s
+process: 8 train: 1.3216753005981445 s predict: 5.996293544769287 s
+process: 9 train: 0.519568681716919 s predict: 6.136812686920166 s
+process: 10 train: 1.0066335201263428 s predict: 5.418216705322266 s
+process: 11 train: 0.45355987548828125 s predict: 5.802267551422119 s
+process: 12 train: 1.2211616039276123 s predict: 5.294700622558594 s
+process: 13 train: 2.1437835693359375 s predict: 6.063802480697632 s
+process: 14 train: 0.5910787582397461 s predict: 5.603741407394409 s
+process: 15 train: 1.909252643585205 s predict: 5.424217700958252 s
+process: 16 train: 3.4854612350463867 s predict: 5.47522497177124 s
+process: 17 train: 0.2925386428833008 s predict: 6.160315036773682 s
+process: 18 train: 2.9798941612243652 s predict: 5.695253610610962 s
+process: 19 train: 0.5870778560638428 s predict: 6.416349411010742 s
+process: 20 train: 1.0856435298919678 s predict: 5.506728649139404 s
+process: 21 train: 0.32204198837280273 s predict: 5.616743326187134 s
+process: 22 train: 0.6770899295806885 s predict: 6.386344909667969 s
+process: 23 train: 0.3335437774658203 s predict: 6.065302610397339 s
+process: 24 train: 1.6987247467041016 s predict: 5.369710683822632 s
+process: 25 train: 3.14591646194458 s predict: 6.037799119949341 s
+process: 26 train: 0.9466252326965332 s predict: 5.492226839065552 s
+process: 27 train: 2.703357696533203 s predict: 6.461354970932007 s
+process: 28 train: 4.079039812088013 s predict: 5.437247276306152 s
+process: 29 train: 0.7981054782867432 s predict: 6.095806121826172 s
+process: 30 train: 3.2054238319396973 s predict: 5.574265480041504 s
+process: 31 train: 1.1126468181610107 s predict: 5.875777959823608 s
+process: 32 train: 1.4861969947814941 s predict: 5.53726053237915 s
+process: 33 train: 0.8246099948883057 s predict: 6.073802709579468 s
+process: 34 train: 1.2901701927185059 s predict: 6.3053624629974365 s
+process: 35 train: 0.800105094909668 s predict: 5.887779235839844 s
+process: 36 train: 3.3679730892181396 s predict: 5.6322455406188965 s
+process: 37 train: 4.27106499671936 s predict: 5.116176605224609 s
+process: 38 train: 2.447824001312256 s predict: 5.602745532989502 s
+process: 39 train: 3.7244927883148193 s predict: 4.944654941558838 s
+process: 40 train: 5.352707862854004 s predict: 5.538232326507568 s
+process: 41 train: 1.8332414627075195 s predict: 5.192250728607178 s
+process: 42 train: 4.188054084777832 s predict: 5.290729999542236 s
+process: 43 train: 1.8863203525543213 s predict: 4.451918601989746 s
+process: 44 train: 2.597343683242798 s predict: 4.928152322769165 s
+process: 45 train: 1.64378023147583 s predict: 4.355483770370483 s
+process: 46 train: 2.249797821044922 s predict: 4.832639455795288 s
+process: 47 train: 1.6882867813110352 s predict: 4.3316309452056885 s
+Accuracy = 96.79246281691631 % ( 36574 / 37786 )
+F1 = 0.9327861579414375
+ROC:
+1.0 	 1.0
+1.0 	 0.9999650789216371
+0.9996721311475409 	 0.8544140243050705
+0.9994535519125683 	 0.7598826651767007
+0.9992349726775956 	 0.634236625226987
+0.9987978142076502 	 0.49144433580108954
+0.9973770491803279 	 0.34942031009917585
+0.993879781420765 	 0.23124738091912278
+0.9881967213114754 	 0.14324626344461516
+0.9794535519125683 	 0.08611537924291102
+0.966775956284153 	 0.04979745774549518
+0.945792349726776 	 0.028705126414303672
+0.9191256830601093 	 0.01648274898728873
+0.8825136612021858 	 0.009533454393071659
+0.8383606557377049 	 0.0060064254784187735
+0.7727868852459017 	 0.0032127392093867857
+0.6864480874316939 	 0.0015365274479675933
+0.5724590163934427 	 0.0007682637239837967
+0.4217486338797814 	 0.0002793686269031988
+0.27289617486338796 	 0.0001396843134515994
+0.15617486338797815 	 0.0
+0.07344262295081967 	 0.0
+0.0 	 0.0
+0.0 	 0.0
