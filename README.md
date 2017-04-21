@@ -7,7 +7,7 @@
 + CPU：AMD FX-8320 Eight Core CPU
 + Memory: 16G DDR3-1600Mhz
 + 解释器：Python3.5
-+ 第三方库：liblinear(可在http://www.lfd.uci.edu/~gohlke/pythonlibs/#liblinear下载)
++ 第三方库：liblinear(可在http://www.lfd.uci.edu/~gohlke/pythonlibs/#liblinear 下载)
 
 ## 实验方法：
 Problem 1 是直接使用SVM进行分类
