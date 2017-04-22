@@ -1,6 +1,7 @@
 import linecache,random, numpy,time
 from functools import reduce
 from liblinearutil import *
+import multiprocessing
 from multiprocessing import Pool as ThreadPool
 
 def translate(name) :
@@ -44,15 +45,16 @@ def random_shuffle(label,features) :
 		return (label,features) 
 
 def trainNpredict(data):
-		time1=time.time()
-		model = train(data[0],data[1])
-		time2=time.time()
-		p_label,p_acc,p_vals = predict(data[2],data[3],model)
-		time3=time.time()
+		ID = multiprocessing.current_process().name    
+		time1 = time.time()
+		model = train(data[0],data[1],'-q')
+		time2 = time.time()
+		p_label,p_acc,p_vals = predict(data[2],data[3],model,'-q')
+		time3 = time.time()
 		leng = len(data[2])
 		if (len(data) == 5) :
 				p_vals.append(data[4])
-		p_vals.append([time2 - time1,time3 - time2])
+		p_vals.append([time2 - time1,time3 - time2, ID])
 		return p_vals
 
 def filter_label(label, features,aimLabel) :
@@ -89,11 +91,10 @@ def Evaluation(result_label,test_label,verbose = True) :
 		
 			print('F1 =',f1)
 		
-		else :
-			TPR = tp / (tp + fn)
-			FPR = fp / (fp + tn)
+		TPR = tp / (tp + fn)
+		FPR = fp / (fp + tn)
 
-			print(TPR,'\t',FPR)
+		return TPR,FPR
 		
 		
 		
@@ -109,7 +110,7 @@ def parseData(line):
 		
 		return label,xi
 		
-def read_problem(data_file_name):
+def read_problem(data_file_name,verbose = False):
 		"""
 		svm_read_problem(data_file_name, return_scipy=False) -> [y, x], y: list, x: list of dictionary
 		svm_read_problem(data_file_name, return_scipy=True)	 -> [y, x], y: ndarray, x: csr_matrix
@@ -123,19 +124,19 @@ def read_problem(data_file_name):
 				prob_y = []
 				row_ptr = [0]
 				col_idx = []
-				
-				print(data_file_name,"is loading.");
+				if verbose :
+					print(data_file_name,"is loading.");
 				
 				cache_data = linecache.getlines(data_file_name)
-
-				print(data_file_name,"has been loaded.");
-				print("parsing the data.")
+				if verbose:
+					print(data_file_name,"has been loaded.");
+					print("parsing the data.")
 				pool = ThreadPool(8)
 				data = pool.map(parseData,cache_data)
 				data.sort(key=lambda piece:piece[0])
 				pool.close()
 				pool.join()
 				prob_y,prob_x = tuple(zip(*data))
-
-				print("Data has been parsed.")
+				if verbose:
+					print("Data has been parsed.")
 				return (list(prob_y), list(prob_x))
