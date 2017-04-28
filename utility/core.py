@@ -20,6 +20,14 @@ def getLabel(value,threshold) :
 	else :	
 		return -1
 	
+def onlyPredict(label,features,model_name):
+	model = load_model(model_name)
+	time1 = time.time()
+	p_labels,p_acc,p_vals = predict(label,features,model);    
+	time2 = time.time()
+	print("predict:",time2 - time1);    
+	return p_vals   
+
 def minmax(outer,inner,p_vals,threshold) :
 	labels = []
 	second_labels = [] 
