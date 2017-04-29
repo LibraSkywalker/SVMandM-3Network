@@ -4,11 +4,14 @@
 蔡万鑫 陈茂棠
 
 ## 实验环境：
-+ CPU：AMD FX-8320 Eight Core CPU
++ CPU：AMD FX-8350 Eight Core CPU
 + Memory: 16G DDR3-1600Mhz
++ GPU: GTX 1080Ti
 + 解释器：Python3.5
 + Jupyter Notebook
 + 第三方库：liblinear(可在http://www.lfd.uci.edu/~gohlke/pythonlibs/#liblinear 下载)
++ 第三方库：liblinear.GPU(https://github.com/aydindemircioglu/LIBLINEAR.gpu)
++ TensorFlow 1.1.0
 
 ## 实验方法：
 Problem 1 是直接使用SVM进行分类
@@ -19,4 +22,20 @@ Problem 3 是利用数据的section层和class层信息，将数据分为16个�
 
 ## 实验结果：
 
-实验结果可在SVMandM3-Netwrok.ipynb查看，需安装Jupyter Notebook查看
+实验结果可在SVM_AND_M-3_Network.ipynb查看，需安装Jupyter Notebook或在GitHub上查看
+
+## GPU Accelarate:
+
+GPU数据需要用relabelforGPU.py生成
+GPU加速实验的结果可以在SVM_AND_M-3_Network_GPU.ipynb查看，需安装Jupyter Notebook或在GitHub上查看
+
+## CPU/GPU速度对比
+| Task  | GPU | CPU |
+|:-----:|:---:|:---:|
+| Task1 | 18s | 38s |
+| Task2 | 34s | 40s |
+| Task3 | 80s | 118s|
+
+## Multilayer Preceptron
+
+MLP还可以用libsvm2TFRecord.py将数据转化成TFRecord类型后再用sparseMLP求解，需要有Tensorflow。
