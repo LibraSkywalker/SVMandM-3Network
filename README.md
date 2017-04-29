@@ -36,6 +36,7 @@ GPU加速实验的结果可以在SVM_AND_M-3_Network_GPU.ipynb查看，需安装
 | Task2 | 34s | 40s |
 | Task3 | 80s | 118s|
 
+需要注意的是liblinear.GPU没有实验predcit函数，所以predict函数还是运行在muticore CPU上的。
 ## Multilayer Preceptron
 
 MLP还可以用libsvm2TFRecord.py将数据转化成TFRecord类型后再用sparseMLP求解，需要有Tensorflow。
