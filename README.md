@@ -27,6 +27,7 @@ Problem 3 是利用数据的section层和class层信息，将数据分为16个�
 ## GPU Accelarate:
 
 GPU数据需要用relabelforGPU.py生成
+
 GPU加速实验的结果可以在SVM_AND_M-3_Network_GPU.ipynb查看，需安装Jupyter Notebook或在GitHub上查看
 
 ## CPU/GPU速度对比
@@ -36,8 +37,10 @@ GPU加速实验的结果可以在SVM_AND_M-3_Network_GPU.ipynb查看，需安装
 | Task2 | 34s | 40s |
 | Task3 | 80s | 118s|
 
-需要注意的是liblinear.GPU没有实验predcit函数，所以predict函数还是运行在muticore CPU上的。
+需要注意的是liblinear.GPU没有实验predict函数，所以predict函数还是运行在muticore CPU上的。
+
 train函数是由nvcc编译的，因而没有GPU或按照不同版本的CUDA可能导致无法运行，所以可以clone liblinear.GPU的repo然后自行编译
+
 ## Multilayer Preceptron
 
 MLP还可以用libsvm2TFRecord.py将数据转化成TFRecord类型后再用sparseEmbeddingMLP求解，需要有Tensorflow。
